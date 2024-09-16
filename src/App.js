@@ -11,7 +11,7 @@ import ResetPassword from "./pages/ResetPassword/ResetPassword";
 import InputCode from "./pages/InputCode/InputCode";
 import UploadNFTPage from "./pages/UploadNFT/UploadNFT.jsx";
 import SubscriptionPage from "./pages/SubscriptionPage/SubscriptionPage.jsx";
-
+import Account from "./pages/account/account.jsx";
 function App() {
   return (
     <BrowserRouter>
@@ -24,6 +24,7 @@ function App() {
         <Route path="/inputCode" element={<InputCode/>} />
         <Route path="/UploadNFTPage" element={<UploadNFTPage/>} />
         <Route path="/Subscription" element={<SubscriptionPage/>} />
+        <Route path="/Account" element={<Account/>} />
       </Routes>
     </BrowserRouter>
   );

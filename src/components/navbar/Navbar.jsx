@@ -63,7 +63,7 @@ const Navbar = () => {
           </li>
             <li><Link to="/" className="navbarLink">Collection</Link></li>
             <li><Link to="/" className="navbarLink">Search</Link></li>
-            <li><Link to="/" className="navbarLink">AccountSetting</Link></li>
+            <li><Link to="/Account" className="navbarLink">AccountSetting</Link></li>
             <li><Link to="/" className="navbarLink">Create Collection</Link></li>
             <li><Link to="/UploadNFTPage" className="navbarLink">Upload NFT</Link></li>
         </ul>
