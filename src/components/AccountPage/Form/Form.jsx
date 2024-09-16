@@ -7,7 +7,7 @@ import {
     TiSocialInstagram,
 } from "react-icons/ti";
 
-import './Form.css'; // Đảm bảo rằng file CSS này có mặt trong dự án React
+import './Form.css';
 
 const Form = () => {
     return (

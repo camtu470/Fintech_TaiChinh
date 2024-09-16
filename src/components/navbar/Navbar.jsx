@@ -61,7 +61,7 @@ const Navbar = () => {
           <li onClick={toggleMenu} style={{ cursor: "pointer" }}>
             <FontAwesomeIcon icon={faBars} />
           </li>
-            <li><Link to="/" className="navbarLink">Collection</Link></li>
+            <li><Link to="/CreatePage" className="navbarLink">Collection</Link></li>
             <li><Link to="/" className="navbarLink">Search</Link></li>
             <li><Link to="/Account" className="navbarLink">AccountSetting</Link></li>
             <li><Link to="/" className="navbarLink">Create Collection</Link></li>
