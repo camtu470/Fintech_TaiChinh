@@ -9,6 +9,9 @@ import SubscriptionPlans from "../../components/SubscriptionPlans/SubscriptionPl
 import Services from "../../components/Services/Services";
 import TrendingList from "../../components/TrendingList/TrendingList.jsx";
 import CardSlider from "../../components/CardSlider/CardSlider.jsx";
+import WalletLogin from "../../components/WalletLogin/WalletLogin.jsx";
+import LogoCarousel from "../../components/LogoCarousel/LogoCarousel.jsx";
+import Service1 from "../../components/Service1/Service.jsx";
 const Home = () => {
   return (
     <div>
@@ -17,8 +20,11 @@ const Home = () => {
       <Header/>
       <FeaturedProducts/>
       <CardSlider/>
+      <WalletLogin/>
+      <LogoCarousel/>
       <Services/>
       <TrendingList/>
+      <Service1/>
       <BrandInfo/>
       <SubscriptionPlans/>
       <div className="homeContainer">
