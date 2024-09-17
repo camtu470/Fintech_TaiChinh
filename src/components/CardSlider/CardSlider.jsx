@@ -5,27 +5,27 @@ const cardData = [
   {
     name: "Geoffroy de Crecy Editions",
     floorPrice: "0.01 ETH",
-    imageUrl: "https://png.pngtree.com/png-clipart/20220404/original/pngtree-cartoon-cute-godzilla-character-girl-drinking-milk-tea-head-png-image_7498312.png",
+    imageUrl: "https://images2.thanhnien.vn/zoom/700_438/Uploaded/datch/2022_04_26/doge-4918.jpg",
   },
   {
     name: "Factura by Mathias",
     floorPrice: "0.11 ETH",
-    imageUrl: "https://toigingiuvedep.vn/wp-content/uploads/2021/07/hinh-ve-don-gian-va-de-thuong-nhat.jpg",
+    imageUrl: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNZNovoDGO_Nkq8Lis471AztKX5jUYkrsumQ&s",
   },
   {
     name: "SALT V4",
     floorPrice: "1.23 ETH",
-    imageUrl: "https://toigingiuvedep.vn/wp-content/uploads/2021/07/hinh-ve-don-gian-va-de-thuong-nhat.jpg", 
+    imageUrl: "https://static.vecteezy.com/system/resources/previews/006/699/646/original/usd-coin-cryptocurrency-usd-logo-gold-coin-decentralized-digital-money-concept-free-vector.jpg", 
   },
   {
     name: "Maschine",
     floorPrice: "0.14 ETH",
-    imageUrl: "https://toigingiuvedep.vn/wp-content/uploads/2021/07/hinh-ve-don-gian-va-de-thuong-nhat.jpg", 
+    imageUrl: "https://m.media-amazon.com/images/I/61d65G+qtgL.jpg", 
   },
   {
     name: "Another Artwork",
     floorPrice: "0.22 ETH",
-    imageUrl: "https://toigingiuvedep.vn/wp-content/uploads/2021/07/hinh-ve-don-gian-va-de-thuong-nhat.jpg", 
+    imageUrl: "https://i.ebayimg.com/images/g/BOAAAOSwQb5hMHUG/s-l1200.jpg", 
   },
 ];
 

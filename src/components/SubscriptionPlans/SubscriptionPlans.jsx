@@ -9,7 +9,7 @@ const SubscriptionPlans = () => {
       price: '$100.00',
       frequency: 'Every month',
       description: 'Get anytime access to our growing collection of classes, workshops, and exclusive content. New items added every month.',
-      image: 'https://cdn-images.vtv.vn/zoom/640_400/66349b6076cb4dee98746cf1/2024/08/16/stills-1-1--82--00487784407060607288166-88884556937264690877561.jpg',
+      image: 'https://www.elcom.com.vn/storage/uploads/images/QgKpr7joU3h2xW2IzECFll5Bn8WqlWplvPqLSuBf.jpg',
     },
     {
       id: 2,
@@ -17,7 +17,7 @@ const SubscriptionPlans = () => {
       price: '$100.00',
       frequency: 'Every month',
       description: 'Get anytime access to our growing collection of classes, workshops, and exclusive content. New items added every month.',
-      image: 'https://cdn-images.vtv.vn/zoom/640_400/66349b6076cb4dee98746cf1/2024/08/16/stills-1-1--82--00487784407060607288166-88884556937264690877561.jpg',
+      image: 'https://image.vietstock.vn/2024/08/28/bitcoin0-12123_934971.png',
     },
     {
       id: 3,
@@ -25,7 +25,7 @@ const SubscriptionPlans = () => {
       price: '$100.00',
       frequency: 'Every month',
       description: 'Get anytime access to our growing collection of classes, workshops, and exclusive content. New items added every month.',
-      image: 'https://cdn-images.vtv.vn/zoom/640_400/66349b6076cb4dee98746cf1/2024/08/16/stills-1-1--82--00487784407060607288166-88884556937264690877561.jpg',
+      image: 'https://www.elcom.com.vn/storage/uploads/images/hx1vspgHqgxnp40vXCisiov2dthWdwxmlIxu15AJ.jpg',
     },
   ];
 
