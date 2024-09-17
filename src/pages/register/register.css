@@ -97,9 +97,7 @@ form .remember-forgot {
     text-decoration: none;
 }
 
-.remember-forgot a:hover {
-    text-decoration: none;
-}
+
 
 form button {
     width: 100%;
@@ -127,6 +125,4 @@ form .register-link {
     font-weight: 600;
 }
 
-.register-link p a:hover {
-    text-decoration: underline;
-}
+

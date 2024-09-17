@@ -1,6 +1,6 @@
 import FeaturedProducts from "../../components/FeaturedProducts/FeaturedProducts.jsx";
 import Footer from "../../components/footer/Footer";
-import Header from "../../components/header/Header";
+// import Header from "../../components/header/Header";
 import MailList from "../../components/mailList/MailList";
 import Navbar from "../../components/navbar/Navbar";
 import "./home.css";
@@ -12,12 +12,13 @@ import CardSlider from "../../components/CardSlider/CardSlider.jsx";
 import WalletLogin from "../../components/WalletLogin/WalletLogin.jsx";
 import LogoCarousel from "../../components/LogoCarousel/LogoCarousel.jsx";
 import Service1 from "../../components/Service1/Service.jsx";
+import List from "../../components/list/List.jsx"
 const Home = () => {
   return (
     <div>
 
       <Navbar />
-      <Header/>
+      {/* <Header/> */}
       <FeaturedProducts/>
       <CardSlider/>
       <WalletLogin/>
@@ -29,6 +30,7 @@ const Home = () => {
       <SubscriptionPlans/>
       <div className="homeContainer">
         <MailList/>
+        <List/>
         <Footer/>
       </div>
     </div>

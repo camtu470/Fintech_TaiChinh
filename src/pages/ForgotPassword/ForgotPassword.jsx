@@ -31,11 +31,12 @@ const ForgotPassword = () => {
   return (
 
         <div className="background-container">
-       <img src='/Assets/background.jpg' alt="" />
+       <img src='/img/background.jpg' alt="" />
     <div className="wrapper">
       <div className="form-box">
         <form>
           <h1>Quên mật khẩu</h1>
+          <label htmlFor="">example@example.com</label>
           <div className="input-box">
             <input type="text" placeholder="Email"  value={email}
           onChange={(e) => setEmail(e.target.value)} />

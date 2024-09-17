@@ -18,7 +18,7 @@ const Login = () => {
 
   return (
     <div className="background-container">
-       <img src='/Assets/background.jpg' alt="" />
+       <img src='/img/background.jpg' alt="" />
       <div className="wrapper">
         <div className="form-box">
           <form>

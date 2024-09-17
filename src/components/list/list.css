@@ -2,7 +2,7 @@
 .section_padding{
   padding: 2rem 2rem;
 }
-.footer{
+.list{
   background-color: #ffffff;
   width: 100%;
 }
@@ -18,7 +18,7 @@
   flex-wrap: wrap;
   width: 100%;
   text-align: left;
-  margin-bottom: 1rem;
+
 }
 .sb_footer-links_div{
   width: 150px;
@@ -54,7 +54,7 @@ a{
 }
 
 .sb_footer-links_div p{
-  font-size: 12px;
+  font-size: 14px;
   line-height: 15px;
   margin: 0.5rem 0;
   cursor: pointer;
