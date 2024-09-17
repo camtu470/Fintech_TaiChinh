@@ -1,6 +1,6 @@
 import React from "react";
 import "./WalletLogin.css";
-import { FaGoogle, FaApple, FaFacebookF } from "react-icons/fa";
+import { FaApple} from "react-icons/fa";
 import { MdPhone } from "react-icons/md";
 import { BsFingerprint } from "react-icons/bs";
 
