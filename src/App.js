@@ -30,6 +30,7 @@ function App() {
         <Route path="/Account" element={<Account/>} />
         <Route path="/CreatePage" element={<CreatePage/>} />
         <Route path="/SmartContractForm" element={<SmartContractForm/>} />
+        
         <Route path="/Dashboard">
           <Route index element={<Dashboard/>} />
         </Route>

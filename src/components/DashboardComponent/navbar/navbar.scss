@@ -65,6 +65,20 @@
           top: -5px;
           right: -5px;
         }
+        .connect-button {
+          padding: 10px 20px;
+          background-color: black;
+          color: white;
+          border: none;
+          border-radius: 20px;
+          cursor: pointer;
+          font-weight: bold;
+          transition: background-color 0.3s ease;
+
+          &:hover {
+            background-color: #333;
+          }
+        }
       }
     }
   }

@@ -1,3 +1,4 @@
+import React, { useState } from "react";
 import "./navbar.scss";
 import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
 import LanguageOutlinedIcon from "@mui/icons-material/LanguageOutlined";
@@ -6,8 +7,19 @@ import FullscreenExitOutlinedIcon from "@mui/icons-material/FullscreenExitOutlin
 import NotificationsNoneOutlinedIcon from "@mui/icons-material/NotificationsNoneOutlined";
 import ChatBubbleOutlineOutlinedIcon from "@mui/icons-material/ChatBubbleOutlineOutlined";
 import ListOutlinedIcon from "@mui/icons-material/ListOutlined";
+import WalletLogin from "../../WalletModal/WalletModal"; 
 
 const Navbar = () => {
+  const [openModal, setOpenModal] = useState(false);
+
+  const handleClick = () => {
+    setOpenModal(true); 
+  };
+
+  const handleClose = () => {
+    setOpenModal(false);  
+  };
+
   return (
     <div className="navbarDashboard">
       <div className="wrapper">
@@ -21,10 +33,7 @@ const Navbar = () => {
             English
           </div>
           <div className="item">
-            <DarkModeOutlinedIcon
-              className="icon"
-              onClick=''
-            />
+            <DarkModeOutlinedIcon className="icon" />
           </div>
           <div className="item">
             <FullscreenExitOutlinedIcon className="icon" />
@@ -47,8 +56,15 @@ const Navbar = () => {
               className="avatar"
             />
           </div>
+          <div className="item">
+            <button className="connect-button" onClick={handleClick}>
+              CONNECT
+            </button>
+          </div>
         </div>
       </div>
+      
+      {openModal && <WalletLogin onClose={handleClose} />}
     </div>
   );
 };

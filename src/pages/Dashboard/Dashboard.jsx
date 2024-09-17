@@ -23,7 +23,7 @@ const Dashboard = () => {
           <Widget type="balance" />
         </div>
         
-        <CardSlider/>
+       
         
         <div className="charts">
           <Featured />
